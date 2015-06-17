@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+    <head></head>
+    <body>
+
+    <form enctype="" action="attack?Screen=87&menu=400" name="form" method="POST" accept-charset="UNKNOWN">
+    <script language="JavaScript" src="js/DOMXSS.js"></script>
+    <script language="JavaScript" src="js/escape.js"></script>
+	<!--als testdata kan het volgende script getest worden: <img src="http://upload.wikimedia.org/wikipedia/commons/6/65/Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_(July_2008).jpg" alt="Porsche"> -->
+    <h1 id="greeting"></h1>
+	
+    Voer uw naam in: 
+
+    <input type="TEXT" name="person" onkeyup="displayGreeting(person.value)" value=""></input>
+	<a href="http://pastebin.com/zpLE3TSp">dom0</a>
+    </body>
+
+</html>
+

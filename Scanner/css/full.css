@@ -1,0 +1,406 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        background-image: url(../Images/achtergrond.png);
+    margin-bottom: 60px;
+
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background:  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.sweetlightbg {
+
+width: 500px;
+    height: 500px;
+    margin: 0 auto;
+background: linear-gradient(0deg, #303030 0%, #404040 30%);
+
+
+}
+
+.stylingUL {
+
+margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+.liOne{
+
+list-style-image: url('../Images/to-do-list-cheked-1-icon.png');
+
+
+
+}
+.liTwo {
+
+list-style-image: url('../Images/to-do-list-icon_empty.png');
+
+
+}
+
+.liThree{
+
+list-style-image: url('../Images/to-do-list-cheked-all-icon3.png');
+
+
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+    padding-left: 15%;
+    
+}
+
+.indebreedte{
+    
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+.textheading{
+text-align: center;
+    font-family: Verdana;
+
+
+}
+
+.icon{
+
+width: 48px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.scannerInput{
+    background: url(images/Box.png);
+    background-color: #272727;
+    border-radius: 3px;
+    box-shadow: 0px 2px 25px 0.00px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 451px;
+    align-content: center;
+    bottom: 71px;
+    left: 80px;
+    right: 109px;
+    top: 69px;
+    margin: 0 auto;
+
+
+}
+    
+.scannerInputHeader{
+    background: linear-gradient(0deg, #303030 0%, #404040 100%);
+    background: -webkit-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -moz-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -o-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -ms-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: linear-gradient(0deg, #303030 0%, #404040 100%);
+  /*  background: url(url(images/Header.png);*/
+    border-top-left-radius: 2px;    
+    border-top-right-radius: 2px;
+    box-shadow: 0px 2px 0px 0.00px rgba(255, 255, 255, 0.08);
+    /*background: url(url(images/Header.png);*/
+    
+    bottom: 348px;
+    height: 23px;
+    right: 109px;
+    width: 451px;
+    height: 23px;
+    color: #d4d4d4;
+    font-size: 16.8px;
+    color: #d4d4d4;
+    font-family: Verdana;
+    text-shadow: 0px -1px 0px #000000;
+    text-align: center;
+    border-top-color: black;
+    border-width: thick;
+}
+
+.rightSlider {
+
+   /* background: url(url(images/Track.png);*/
+    bottom: 71px;
+    box-shadow: -2px 0px 0px 0.00px rgba(255, 255, 255, 0.08);
+    height: 277px;
+    float: right;
+    width: 10px;
+    background: url(images/Track.png);
+    border: #171717;
+
+}
+
+
+h3 {
+text-align: center;
+
+}
+.dimensions{
+
+padding-left: 20%;
+    margin-right: 10%;
+    padding-top: 15%;
+
+
+}
+
+.stijlMaken {
+
+text-align: center;
+
+}
+.inputBarcode{
+    width: 55.8%;  
+    align-content: center;
+    border-radius: 4px;
+    height: 5%; 
+    
+    border-bottom-style: hidden;
+    border-right-style: none;
+    border-width: thin;
+    margin-left: 20%;
+    color: #cfcfcf;
+    background: url(images/Text-Field.png);
+    margin-top: 4%; 
+   /* background: url(images/Field.png);*/
+        box-shadow: 0px 0.1px 0px 0.150px rgba(255, 255, 255, 0.08);
+
+    
+    border-bottom-color: black;
+    border-color: dimgray;
+    font-family: 'Myriad Pro';
+    font-size: 12px;
+    border-top-color: black;
+    border-top-style: double;
+    
+}
+
+
+.btn{
+    /*background: url(images/Button.png);*/
+    background: linear-gradient(0deg, #303030 0%, #404040 100%);
+    background: -webkit-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -moz-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -o-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -ms-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: linear-gradient(0deg, #303030 0%, #404040 100%);
+    border-radius: 2px;
+    height: 5.5%;
+    border-color: dimgray;
+    border-style: groove;
+    border-width: thin;
+    color: white;
+    margin-top: 5%;
+margin-left: 20%;
+}
+.btn:hover{
+color:navajowhite;
+
+
+}
+.btn:active{
+    color: azure;
+    text-emphasis-color: aliceblue;
+
+}
+.btn:visited{
+
+color: azure;
+}
+.btn:link{
+
+    color: white;
+
+}
+
+#data{
+
+/*margin-left:10%;
+    margin-top: 50px;
+*/
+}
+
+/*.fb{
+    background: url(images/MergedLayers.png);
+    height: 24px;
+    width: 30px;
+   border-width: thin;
+    border-color: dimgray;
+    
+
+
+
+}
+*/
+
+.visiteKaartje{
+    background: url(images/visitekaartjeUpdate4.png)
+        ;
+   height: 362px;
+    width: 538px;
+    /*background: url(images/Layer-1.png);*/
+    margin: 0 auto;
+    border-color: #9aa6ba;
+    border-width: medium;
+    border-radius: 8px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+    
+    padding-right: 15%;
+}
+.navbar-brand{
+padding-left: 5%;
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+    width: 99%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+text-align: center;
+     background: linear-gradient(0deg, #303030 0%, #404040 100%);
+    background: -webkit-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -moz-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -o-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: -ms-linear-gradient(90deg, #303030 0%, #404040 100%);
+    background: linear-gradient(0deg, #303030 0%, #404040 100%);
+    border-top-width: thick;
+    border-top-color: aliceblue;
+    color: lightgrey;
+}
+.container {
+padding-left: 9.5%;
+}
+
+.middle{
+text-align: center;
+
+}
+.contenap{
+
+width: 90%;
+    padding-right: 50px;
+}
+
+.floating {
+
+float: left;
+    text-align: center;
+    margin-left: -10px;
+    padding-left: -10px;
+}
+
+.margins{
+margin: 0 auto;
+width: 650px;
+    height: 540px;
+    margin-top: 2%;
+    padding-right: 20px;
+    
+    border-radius: 15px;
+
+}
+
+#home_small{
+
+    border-radius: 15px;
+
+}
+.setting{
+margin: 0 auto;
+    background: url(../Images/wheel.png);
+    width: 48px;
+    height: 48px;
+    margin-top: 50px;
+        transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+    transition: 0.8s;
+}
+.setting:hover{
+opacity: 0.8;
+
+    transform: rotate(360deg) scale(0.828) skew(1deg) translate(0px);
+-webkit-transform: rotate(360deg) scale(0.828) skew(1deg) translate(0px);
+-moz-transform: rotate(360deg) scale(0.828) skew(1deg) translate(0px);
+-o-transform: rotate(360deg) scale(0.828) skew(1deg) translate(0px);
+-ms-transform: rotate(360deg) scale(0.828) skew(1deg) translate(0px); 
+}
+
+
+
+.start{
+
+margin-top: 75px;
+    margin-left: 60px;
+
+}
+
+.start2{
+
+margin-left: 12px;
+    margin-top: 10px;
+
+}
+.start3{
+        margin-top: 10px;
+
+    margin-left: 0px;
+
+}
+
+.start5 {
+margin-top: 14px;
+    margin-left: 4px;
+}
+.start4 {
+margin-left: 18px;
+    margin-top: 14px;
+
+
+}
+.center {
+
+text-align: center;
+    padding-top: 50px;
+    padding-bottom: -50px;
+    
+}
+
+.style {
+
+font-size: 24px;
+    font-family: verdana;
+}
